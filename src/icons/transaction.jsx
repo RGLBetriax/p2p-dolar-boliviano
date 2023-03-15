@@ -1,8 +1,8 @@
 const Transaction = () => {
   return (
     <svg
-      width="540"
-      height="500"
+      width="560"
+      height="700"
       viewBox="0 0 1440 1024"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
