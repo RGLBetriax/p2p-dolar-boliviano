@@ -1,19 +1,19 @@
 const Transaction = () => {
   return (
     <svg
-      width="560"
-      height="700"
+      width="760"
+      height="900"
       viewBox="0 0 1440 1024"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <rect width="1440" height="1024" fill="#212C5E" />
-      <g clip-path="url(#clip0)">
+      <g clipPath="url(#clip0)">
         <path
           d="M681.725 839.623C879.807 839.623 1040.38 679.046 1040.38 480.963C1040.38 282.881 879.807 122.304 681.725 122.304C483.643 122.304 323.065 282.881 323.065 480.963C323.065 679.046 483.643 839.623 681.725 839.623Z"
           stroke="#D1E8F7"
-          stroke-width="1.91649"
-          stroke-miterlimit="10"
+          strokeWidth="1.91649"
+          strokeMiterlimit="10"
         />
         <path
           d="M389.948 283.002C396.925 283.002 402.581 277.346 402.581 270.369C402.581 263.392 396.925 257.737 389.948 257.737C382.972 257.737 377.316 263.392 377.316 270.369C377.316 277.346 382.972 283.002 389.948 283.002Z"
@@ -30,8 +30,8 @@ const Transaction = () => {
         <path
           d="M690.034 750.876C837.798 750.876 957.584 631.09 957.584 483.326C957.584 335.561 837.798 215.775 690.034 215.775C542.269 215.775 422.483 335.561 422.483 483.326C422.483 631.09 542.269 750.876 690.034 750.876Z"
           stroke="#D1E8F7"
-          stroke-width="1.42966"
-          stroke-miterlimit="10"
+          strokeWidth="1.42966"
+          strokeMiterlimit="10"
         />
         <path
           d="M952.998 546.643C958.202 546.643 962.421 542.424 962.421 537.22C962.421 532.015 958.202 527.796 952.998 527.796C947.793 527.796 943.574 532.015 943.574 537.22C943.574 542.424 947.793 546.643 952.998 546.643Z"
@@ -68,37 +68,37 @@ const Transaction = () => {
         <path
           d="M778.403 541.294C792.826 527.549 794.395 505.785 781.909 492.685C769.422 479.584 747.609 480.107 733.187 493.852C718.765 507.598 717.195 529.361 729.682 542.462C742.168 555.563 763.981 555.04 778.403 541.294Z"
           stroke="#EF6A77"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
         />
         <path
           d="M739.583 549.348C727.619 544.182 720.036 531.901 721.413 517.573C723.238 498.584 740.111 483.191 759.1 483.191"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M736.744 578.904H763.054"
           stroke="white"
-          stroke-width="5.98374"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="5.98374"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M733.879 608.701H760.19"
           stroke="white"
-          stroke-width="5.98374"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="5.98374"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           opacity="0.4"
           d="M721.296 593.634H775.67"
           stroke="white"
-          stroke-width="5.98374"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="5.98374"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M652.495 630.406H524.61C523.667 630.425 522.73 630.24 521.864 629.866C520.999 629.492 520.223 628.936 519.59 628.236C518.958 627.536 518.483 626.709 518.198 625.809C517.912 624.91 517.824 623.96 517.937 623.024L533.465 461.488C533.689 459.485 534.633 457.632 536.122 456.274C537.611 454.916 539.542 454.146 541.557 454.106H669.443C670.386 454.087 671.322 454.271 672.188 454.646C673.054 455.02 673.829 455.576 674.462 456.276C675.095 456.976 675.57 457.803 675.855 458.702C676.14 459.602 676.229 460.552 676.115 461.488L660.587 623.024C660.363 625.026 659.419 626.879 657.93 628.237C656.442 629.595 654.51 630.366 652.495 630.406Z"
@@ -107,37 +107,37 @@ const Transaction = () => {
         <path
           d="M622.007 541.294C636.429 527.549 637.998 505.785 625.512 492.685C613.026 479.584 591.212 480.107 576.79 493.852C562.368 507.598 560.799 529.361 573.285 542.462C585.771 555.563 607.585 555.04 622.007 541.294Z"
           stroke="#EF6A77"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
         />
         <path
           d="M633.781 517.573C631.956 536.562 615.083 551.955 596.094 551.955C577.105 551.955 563.191 536.562 565.017 517.573C566.842 498.584 583.715 483.191 602.704 483.191"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M580.348 578.904H606.658"
           stroke="white"
-          stroke-width="5.98374"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="5.98374"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M577.483 608.701H603.794"
           stroke="white"
-          stroke-width="5.98374"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="5.98374"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           opacity="0.4"
           d="M564.9 593.634H619.274"
           stroke="white"
-          stroke-width="5.98374"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="5.98374"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M798.171 745.944H513.117C512.223 745.961 511.336 745.787 510.516 745.432C509.695 745.077 508.96 744.55 508.36 743.887C507.761 743.224 507.311 742.44 507.04 741.587C506.77 740.735 506.686 739.835 506.793 738.947L515.3 650.461C515.512 648.563 516.407 646.806 517.818 645.519C519.229 644.232 521.059 643.502 522.969 643.464H808.022C808.916 643.446 809.803 643.621 810.624 643.976C811.444 644.331 812.179 644.857 812.779 645.521C813.378 646.184 813.828 646.968 814.099 647.82C814.369 648.673 814.453 649.573 814.346 650.461L805.84 738.947C805.627 740.845 804.733 742.601 803.322 743.888C801.911 745.176 800.08 745.906 798.171 745.944Z"
@@ -146,72 +146,72 @@ const Transaction = () => {
         <path
           d="M532.968 725.427L536.989 683.595"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M562.473 696.123L559.656 725.427"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M588.199 706.131L586.344 725.427"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M618.098 672.724L613.032 725.427"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M641.575 706.131L639.72 725.427"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M671.251 675.052L666.408 725.427"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M695.107 704.511L693.096 725.427"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M720.855 714.285L719.784 725.427"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M750.493 683.595L746.472 725.427"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M778.712 667.667L773.16 725.427"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M540.355 407.462L556.375 432.557C557.098 433.69 557.344 435.062 557.06 436.375C556.775 437.689 555.984 438.836 554.857 439.569L552.268 441.251C547.934 444.067 542.725 445.214 537.609 444.479C532.493 443.743 527.818 441.175 524.453 437.251L503.194 412.46L540.355 407.462Z"
@@ -244,24 +244,24 @@ const Transaction = () => {
         <path
           d="M514.058 324.275C514.058 324.275 541.218 318.782 548.528 331.527C555.837 344.271 562.14 368.205 581.588 365.12C601.036 362.034 615.923 299.46 635.042 300.031C654.162 300.602 647.421 341.584 668.232 342.156C689.042 342.728 685.341 319.264 699.211 319.918C716.036 320.711 709.764 369.331 731.702 369.904C753.64 370.477 757.22 305.682 790.384 306.819"
           stroke="white"
-          stroke-width="7.56507"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="7.56507"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M529.506 247.154L582.739 247.201"
           stroke="white"
-          stroke-width="11.9991"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.9991"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           opacity="0.4"
           d="M527.308 271.556L637.318 271.654"
           stroke="white"
-          stroke-width="11.9991"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.9991"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M424.307 416.46L463.121 399.363L502.814 372.268C513.253 365.143 535.053 361.933 542.901 371.839C550.884 381.915 541.917 401.847 532.235 410.302L495.552 442.335L476.477 465.943L424.307 416.46Z"
@@ -270,8 +270,8 @@ const Transaction = () => {
         <path
           d="M503.194 382.557C503.194 382.557 508.434 402.763 522.02 406.259L536.43 394.085C537.891 392.997 539.115 391.623 540.028 390.047C540.941 388.47 541.523 386.724 541.739 384.916C541.955 383.107 541.801 381.273 541.285 379.526C540.769 377.779 539.903 376.155 538.739 374.754V374.754C536.706 372.306 533.87 370.66 530.736 370.11C527.602 369.561 524.374 370.143 521.63 371.753L503.194 382.557Z"
           stroke="#FF967C"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M319.38 476.062C319.38 476.062 311.858 529.857 377.316 560.66C377.316 560.66 330.294 603.794 312.165 611.047C294.037 618.299 225.924 544.182 250.15 502.114C256.944 490.317 319.38 476.062 319.38 476.062Z"
@@ -300,24 +300,24 @@ const Transaction = () => {
         <path
           d="M875.814 320.069H950.966"
           stroke="white"
-          stroke-width="12"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="12"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M870.313 382.201H945.465"
           stroke="white"
-          stroke-width="12"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="12"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           opacity="0.4"
           d="M873.095 350.784H1028.4"
           stroke="white"
-          stroke-width="12"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="12"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M814.065 619.855C814.065 619.855 838.29 613.394 851.183 627.277C851.183 627.277 874.357 623.069 883.779 635.961C883.779 635.961 904.324 637.151 910.274 645.531C915.222 646.214 919.901 648.195 923.834 651.274C927.767 654.352 930.815 658.418 932.666 663.057C938.284 676.298 933.519 752.849 927.935 780.28C926.539 787.141 927.017 794.251 929.32 800.863L943.524 841.682L845.247 882.765L821.915 821.909C821.915 821.909 793.514 776.268 789.456 768.153C785.399 760.039 792.276 692.706 778.425 650.643L814.065 619.855Z"
@@ -346,44 +346,44 @@ const Transaction = () => {
         <path
           d="M763.41 605.045C764.391 606.657 765.695 608.049 767.239 609.133C768.784 610.218 770.535 610.971 772.385 611.347"
           stroke="#FF967C"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M775.868 551.217C780.081 549.35 784.728 546.741 786.727 543.696L773.834 513.083C773.558 512.423 773.145 511.83 772.622 511.342C772.099 510.854 771.479 510.483 770.802 510.253C770.125 510.023 769.407 509.94 768.695 510.009C767.983 510.078 767.294 510.297 766.674 510.652C762.086 513.3 756.03 518.078 755.795 524.938L764.515 546.638C764.943 547.698 765.58 548.66 766.388 549.468C767.196 550.276 768.159 550.913 769.218 551.34C770.278 551.768 771.413 551.977 772.556 551.956C773.698 551.935 774.825 551.683 775.868 551.217Z"
           stroke="#FF967C"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M822.654 619.236L834.591 645.531"
           stroke="#FF967C"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M851.66 627.815C857.726 636.511 860.977 646.86 860.974 657.464"
           stroke="#FF967C"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M884.349 636.453C884.349 636.453 890.358 650.234 890.854 661.132"
           stroke="#FF967C"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M911.115 646.349C913.482 652.164 914.4 658.468 913.789 664.717"
           stroke="#FF967C"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M715.113 706.131C715.113 706.131 722.223 697.101 719.784 692.572C717.345 688.043 706.496 681.638 700.226 682.335C697.234 682.786 694.347 683.769 691.703 685.239C691.222 685.49 690.816 685.863 690.524 686.321C690.232 686.778 690.064 687.303 690.037 687.845C690.011 688.387 690.126 688.927 690.372 689.41C690.619 689.894 690.987 690.305 691.441 690.602L715.113 706.131Z"
           stroke="#FF967C"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M592.842 816.234H376.227C375.333 816.251 374.446 816.077 373.625 815.722C372.804 815.367 372.069 814.84 371.47 814.177C370.87 813.514 370.42 812.729 370.15 811.877C369.879 811.025 369.795 810.125 369.903 809.237L378.409 720.75C378.621 718.852 379.516 717.096 380.927 715.809C382.338 714.522 384.168 713.792 386.078 713.754H602.694C603.588 713.736 604.475 713.911 605.295 714.266C606.116 714.62 606.851 715.147 607.451 715.81C608.05 716.474 608.5 717.258 608.771 718.11C609.041 718.963 609.125 719.863 609.018 720.75L600.512 809.237C600.299 811.135 599.404 812.891 597.993 814.178C596.583 815.465 594.752 816.196 592.842 816.234Z"
@@ -392,44 +392,44 @@ const Transaction = () => {
         <path
           d="M396.563 736.83H530.246"
           stroke="#EF6A77"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M396.563 736.83H489.46"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M394.563 764.994H528.246"
           stroke="#EF6A77"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M394.563 764.994H450.103"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M390.192 793.158H523.875"
           stroke="#EF6A77"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M390.192 793.158H424.157"
           stroke="white"
-          stroke-width="11.6898"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeWidth="11.6898"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
         />
         <path
           d="M577.567 744.817C581.979 744.817 585.555 741.241 585.555 736.83C585.555 732.418 581.979 728.842 577.567 728.842C573.156 728.842 569.58 732.418 569.58 736.83C569.58 741.241 573.156 744.817 577.567 744.817Z"
@@ -453,8 +453,8 @@ const Transaction = () => {
           y2="1414.72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -464,8 +464,8 @@ const Transaction = () => {
           y2="662.637"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear"
@@ -475,8 +475,8 @@ const Transaction = () => {
           y2="826.442"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear"
@@ -486,8 +486,8 @@ const Transaction = () => {
           y2="862.771"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <linearGradient
           id="paint4_linear"
@@ -497,8 +497,8 @@ const Transaction = () => {
           y2="291.221"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <clipPath id="clip0">
           <rect

@@ -1,6 +1,23 @@
 {
     "header": {
         "title":"Libera el poder de tu dinero",
-        "presentation":"Estamos emocionados de anunciar el lanzamiento de nuestro nuevo producto en unos días! Para celebrar, hemos creado una cuenta regresiva para dejarte saber exactamente cuento tiempo falta para la gran presentación"
+        "presentation":"Estamos emocionados de anunciar el lanzamiento de nuestro nuevo producto! Para celebrar, hemos creado una cuenta regresiva para dejarte saber exactamente cuento tiempo falta para la gran presentación"
+    },
+    "form": {
+        "suscription": "Suscríbete aquí",
+        "info": "Para ser de los primeros clientes en recibir información exclusiva sobre nuestro producto",
+        "name": "Nombre",
+        "lastname": "Apellido",
+        "email": "Correo electrónico",
+        "submit": "Suscribirme",
+        "terms": "Acepto los términos y condiciones"
+    },
+    "validators": {
+        "email_validation": "Por favor ingresa un correo electrónico válido",
+        "required-validation": "Este campo no puede estar vacío"
+    },
+    "footer": {
+        "text-1": "Esta página está creada por Betriax",
+        "text-2": "© Dolar Boliviano. Todos los derechos reservados."
     }
 }

@@ -1,9 +1,11 @@
 import NavBar from "../NavBar/NavBar";
+import Form from "../Form/Form";
+import Footer from "../Footer/Footer";
 import { useTranslation } from "react-i18next";
 
-import logo from "../../assets/imgs/Logo3.png";
-import es from "../../assets/imgs/bolivia.png";
-import eng from "../../assets/imgs/united-states.png";
+//import logo from "../../assets/imgs/Logo3.png";
+//import es from "../../assets/imgs/bolivia.png";
+//import eng from "../../assets/imgs/united-states.png";
 
 import { motion } from "framer-motion";
 
@@ -12,11 +14,11 @@ import Transaction from "../../icons/Transaction";
 import FlipCountdown from "@rumess/react-flip-countdown";
 
 const Home = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   return (
     <div className="bg-lavender">
-      <nav className="py-5 ">
+      {/*<nav className="py-5">
         <div className="flex justify-between items-center">
           <img src={logo} alt="" className="w-32 pt-5 ml-10" />
 
@@ -27,14 +29,21 @@ const Home = () => {
             <button onClick={() => i18n.changeLanguage("es")}>
               <img src={es} alt="" className="w-8 h-8" />
             </button>
-            <button className="bg-yellow rounded-xl text-black font-bold px-3 py-1 text-sm mr-10 ml-32">
-              Suscribite
-            </button>
+            <a
+              href="#form"
+              className="bg-yellow rounded-xl text-black font-bold px-3 py-2 text-sm mr-10 ml-32"
+            >
+              {t("form.submit")}
+            </a>
           </div>
         </div>
-      </nav>
+      </nav>*/}
 
-      {/* <NavBar/> */}
+      {/* NavBar */}
+
+      <NavBar />
+
+      {/* Home */}
 
       <div className="flex items-center justify-center">
         <div className="w-[45%]">
@@ -58,6 +67,14 @@ const Home = () => {
           <Transaction />
         </motion.div>
       </div>
+
+      {/* Form */}
+
+      <Form />
+
+      {/* Footer */}
+
+      <Footer />
     </div>
   );
 };

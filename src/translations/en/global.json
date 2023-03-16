@@ -1,6 +1,23 @@
 {
     "header": {
         "title":"Unlock the power of your money",
-        "presentation":"We're excited to announce that we're launching our new product in just a few days! To celebrate, we've created a countdown timer that will let you know exactly how much time is left until the big launch."
+        "presentation":"We're excited to announce that we're launching our new product! To celebrate, we've created a countdown timer that will let you know exactly how much time is left until the big launch."
+    },
+    "form": {
+        "suscription": "Suscribe here",
+        "info": "To be among the first customers to receive exclusive information about our product",
+        "name": "Name",
+        "lastname": "Lastname",
+        "email": "Email",
+        "submit": "Suscribe",
+        "terms": "I agree with terms & conditions"
+    },
+    "validators": {
+        "email_validation": "Please enter a valid email",
+        "required-validation": "This field cannot be empty"
+    },
+    "footer": {
+        "text-1": "This page was created by Betriax",
+        "text-2": "© Dolar Boliviano. All rights reserved."
     }
 }

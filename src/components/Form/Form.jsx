@@ -1,24 +1,99 @@
+/* eslint-disable no-useless-escape */
 import { useForm } from "react-hook-form";
-import Scene2 from "../../icons/Scene2";
+import Scene1 from "../../icons/Scene1";
+import { useTranslation } from "react-i18next";
 
 const Form = () => {
-  const { register, handleSubmit } = useForm();
+  const [t] = useTranslation("global");
+  const {
+    register,
+    formState: { errors },
+    handleSubmit,
+  } = useForm();
   const onSubmit = (data) => console.log(data);
 
-  return (
-    <div className="bg-blueLight w-screen h-screen" id="form">
-      {/*<Scene2 />*/}
-      <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col">
-        <label>Name *</label>
-        <input type="text" placeholder="Enter your name" />
-        <label>Lastname *</label>
-        <input type="text" placeholder="Enter your lastname" />
-        <label>Email *</label>
-        <input type="text" placeholder="Enter your email" />
-        <input type="checkbox" />
-        <span>I Agree to the Terms & Conditions</span>
+  const regex =
+    /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
-        <input type="submit" value="Iniciar sesión" />
+  return (
+    <div className="bg-blueLight w-full flex" id="form">
+      <div className="ml-60">
+        <Scene1 />
+      </div>
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        className="bg-white w-[400px] h-[650px] rounded-2xl shadow-xl mt-28"
+      >
+        <h2 className="text-lavender text-3xl font-medium mb-2 pl-8 pt-8">
+          {t("form.suscription")}
+        </h2>
+        <h3 className="text-lavender text-sm mb-2 pl-8">{t("form.info")}</h3>
+        <div>
+          <input
+            className="border border-gray-400 rounded mb-4 ml-8 mt-6 p-3 w-[330px] "
+            type="text"
+            placeholder={t("form.name")}
+            {...register("name", { required: true, maxLength: 15 })}
+          />
+          {errors.name?.type === "required" && (
+            <p className="text-red ml-8">
+              {t("validators.required-validation")}
+            </p>
+          )}
+          <input
+            className="border border-gray-400 rounded mb-4 ml-8 mt-6 p-3 w-[330px]"
+            type="text"
+            placeholder={t("form.lastname")}
+            {...register("lastname", { required: true, maxLength: 15 })}
+          />
+          {errors.name?.type === "required" && (
+            <p className="text-red ml-8">
+              {t("validators.required-validation")}
+            </p>
+          )}
+        </div>
+        <div>
+          <input
+            className="border border-gray-400 rounded mb-4 ml-8 mt-6 p-3 w-[330px]"
+            type="text"
+            placeholder={t("form.email")}
+            {...register("email", {
+              pattern: regex,
+              required: true,
+            })}
+          />
+        </div>
+
+        {errors.email?.type === "pattern" ? (
+          <p className="text-red ml-8">{t("validators.email-validation")}</p>
+        ) : (
+          errors.email?.type === "required" && (
+            <p className="text-red ml-8">
+              {t("validators.required-validation")}
+            </p>
+          )
+        )}
+        <div className="flex">
+          <input
+            className="ml-8 mb-6 mt-5 cursor-pointer"
+            type="checkbox"
+            {...register("checkbox", {
+              required: true,
+            })}
+          />
+          <span className="ml-2 mb-6 mt-5 text-lavender underline">
+            {t("form.terms")}
+          </span>
+        </div>
+        {errors.checkbox?.type === "required" && (
+          <p className="text-red ml-8">{t("validators.required-validation")}</p>
+        )}
+
+        <input
+          className="ml-8 mb-6 mt-5 py-3 px-3 bg-yellow rounded-lg text-lavender cursor-pointer"
+          type="submit"
+          value={t("form.submit")}
+        />
       </form>
     </div>
   );
