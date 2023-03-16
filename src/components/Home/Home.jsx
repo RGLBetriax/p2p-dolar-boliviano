@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div className="bg-lavender">
-      <nav className="py-5 ">
+      <nav className="py-5">
         <div className="flex justify-between items-center">
           <img src={logo} alt="" className="w-32 pt-5 ml-10" />
 
@@ -39,7 +39,7 @@ const Home = () => {
 
       <div className="flex items-center justify-center">
         <div className="w-[45%]">
-          <h1 className="text-white font-bold text-5xl">{t("header.title")}</h1>
+          <h1 className="text-white font-bold text-7xl">{t("header.title")}</h1>
 
           <h3 className="text-white pt-2 pb-2">{t("header.presentation")}</h3>
 
@@ -52,6 +52,7 @@ const Home = () => {
             endAt={"2023-4-16 00:00:00"}
           />
         </div>
+        
         <motion.div
         animate={{ x: 100 }}
         transition={{ type: "spring", stiffness: 100 }}
@@ -59,6 +60,7 @@ const Home = () => {
           <Transaction />
         </motion.div>
       </div>
+
     </div>
   );
 };
