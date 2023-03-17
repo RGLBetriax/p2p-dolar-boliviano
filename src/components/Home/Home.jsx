@@ -47,18 +47,18 @@ const Home = () => {
 
       <div className="flex items-center justify-center">
         <div className="w-[45%]">
-          <h1 className="text-white font-bold text-5xl">{t("header.title")}</h1>
-
-          <h3 className="text-white pt-2 pb-2">{t("header.presentation")}</h3>
-
-          <FlipCountdown
-            size="medium"
-            theme="dark"
-            hideYear
-            // hideMinute
-            // hideSecond
-            endAt={"2023-4-16 00:00:00"}
-          />
+          <h1 className="text-white font-bold text-7xl">{t("header.title")}</h1>
+          <h3 className="text-white pt-5 pb-2">{t("header.presentation")}</h3>
+          <div className="pt-5">
+            <FlipCountdown
+              size="medium"
+              theme="dark"
+              hideYear
+              // hideMinute
+              // hideSecond
+              endAt={"2023-4-16 00:00:00"}
+            />
+          </div>
         </div>
         <motion.div
           animate={{ x: 100 }}
