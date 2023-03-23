@@ -17,6 +17,7 @@ module.exports = {
       lavender: "#212C5E",
       blueLight: "#F2FAFC",
       yellow: "#FFE5B4",
+      orange: "#FEBB94",
       grey: "#D5D3D5",
       grey2: "#9CACCB",
       red: "#FD2816",

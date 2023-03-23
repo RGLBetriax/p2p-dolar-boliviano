@@ -1,16 +1,35 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-useless-escape */
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
 import Scene1 from "../../icons/Scene1";
 import { useTranslation } from "react-i18next";
+import { fetchUser, postUser } from "../../redux/states/user/userSlice";
+
 
 const Form = () => {
+  const dispatch = useDispatch();
   const [t] = useTranslation("global");
   const {
     register,
     formState: { errors },
+    reset,
     handleSubmit,
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+
+  useEffect(() => {
+    dispatch(fetchUser());
+  }, []);
+
+  const onSubmit = async (data) => {
+    try {
+      dispatch(postUser(data));
+      reset();
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
 
   const regex =
     /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
@@ -22,18 +41,20 @@ const Form = () => {
       </div>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="bg-white w-[400px] h-[650px] rounded-2xl shadow-xl mt-28"
+        className="bg-white w-[400px] h-[650px] rounded-2xl shadow-xl mt-16"
       >
         <h2 className="text-lavender text-3xl font-medium mb-2 pl-8 pt-8">
           {t("form.suscription")}
         </h2>
-        <h3 className="text-lavender text-sm mb-2 pl-8">{t("form.info")}</h3>
+        <h3 className="text-lavender text-sm mb-2 pl-8 w-96">
+          {t("form.info")}
+        </h3>
         <div>
           <input
             className="border border-gray-400 rounded mb-4 ml-8 mt-6 p-3 w-[330px] "
             type="text"
             placeholder={t("form.name")}
-            {...register("name", { required: true, maxLength: 15 })}
+            {...register("name", { required: true })}
           />
           {errors.name?.type === "required" && (
             <p className="text-red ml-8">
@@ -44,9 +65,9 @@ const Form = () => {
             className="border border-gray-400 rounded mb-4 ml-8 mt-6 p-3 w-[330px]"
             type="text"
             placeholder={t("form.lastname")}
-            {...register("lastname", { required: true, maxLength: 15 })}
+            {...register("lastName", { required: true })}
           />
-          {errors.name?.type === "required" && (
+          {errors.lastName?.type === "required" && (
             <p className="text-red ml-8">
               {t("validators.required-validation")}
             </p>
@@ -77,7 +98,7 @@ const Form = () => {
           <input
             className="ml-8 mb-6 mt-5 cursor-pointer"
             type="checkbox"
-            {...register("checkbox", {
+            {...register("disclaimer", {
               required: true,
             })}
           />
@@ -85,12 +106,12 @@ const Form = () => {
             {t("form.terms")}
           </span>
         </div>
-        {errors.checkbox?.type === "required" && (
+        {errors.disclaimer?.type === "required" && (
           <p className="text-red ml-8">{t("validators.required-validation")}</p>
         )}
 
         <input
-          className="ml-8 mb-6 mt-5 py-3 px-3 bg-yellow rounded-lg text-lavender cursor-pointer"
+          className="ml-32 mb-6 mt-5 py-4 px-4 hover:bg-orange bg-yellow rounded-lg text-lavender cursor-pointer"
           type="submit"
           value={t("form.submit")}
         />
