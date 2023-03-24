@@ -41,7 +41,7 @@ const Form = () => {
       id="form"
     >
       <div className="flex flex-col w-96 ml-10 text-center lg:text-left md:ml-72 lg:ml-96 pt-20 lg:mt-5">
-        <h2 className="text-lavender font-bold text-5xl">
+        <h2 className="text-lavender font-bold text-5xl sm:text-6xl">
           {t("form.svg_title")}
         </h2>
         <h3 className="text-lavender font-bold text-xl mt-6">
