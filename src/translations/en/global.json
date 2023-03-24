@@ -1,0 +1,28 @@
+{
+    "header": {
+        "title":"Unlock the power of your dollars",
+        "presentation":"We arrived in Bolivia to make you earn more when exchanging dollars. Soon you will know how you can propose the price of the dollar with other people."
+    },
+    "form": {
+        "svg_title": "Sign up, train and win.",
+        "svg_subtitle": "The first 200 will receive a discount of 50% of the service commission.",
+        "p_1": "We already have",
+        "p_2": "suscriptors!",
+        "suscription": "Register here",
+        "info": "To be among the first customers to receive exclusive information about our product",
+        "name": "Name",
+        "lastname": "Lastname",
+        "email": "Email",
+        "submit": "Know more",
+        "access": "Register now",
+        "terms": "I agree with terms & conditions"
+    },
+    "validators": {
+        "email_validation": "Please enter a valid email",
+        "required-validation": "This field cannot be empty"
+    },
+    "footer": {
+        "text-1": "This page was created by Betriax",
+        "text-2": "© Dolar Boliviano. All rights reserved."
+    }
+}

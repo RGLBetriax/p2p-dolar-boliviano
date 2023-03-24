@@ -1,0 +1,29 @@
+{
+    "header": {
+        "title":"Libera el poder de tus dólares",
+        "presentation": "Llegamos a Bolivia para hacer que ganes más al momento de cambiar dólares. Pronto conocerás cómo puedes proponer el precio del dólar con otras personas."
+        
+    },
+    "form": {
+        "svg_title": "Regístrate, entrénate y gana.",
+        "svg_subtitle": "Los primeros 200 suscriptores recibirán un descuento del 50% de la comisión del servicio.",
+        "p_1": "Ya contamos con",
+        "p_2": "suscriptores!",
+        "suscription": "Regístrate aquí",
+        "info": "Para ser de los primeros clientes en recibir información exclusiva sobre nuestro producto",
+        "name": "Nombre",
+        "lastname": "Apellido",
+        "email": "Correo electrónico",
+        "submit": "Quiero saber más",
+        "access": "Registrarme",
+        "terms": "Acepto los términos y condiciones"
+    },
+    "validators": {
+        "email_validation": "Por favor ingresa un correo electrónico válido",
+        "required-validation": "Este campo no puede estar vacío"
+    },
+    "footer": {
+        "text-1": "Esta página está creada por Betriax",
+        "text-2": "© Dolar Boliviano. Todos los derechos reservados."
+    }
+}
