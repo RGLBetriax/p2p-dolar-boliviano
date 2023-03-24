@@ -37,7 +37,7 @@ const Form = () => {
 
   return (
     <div className="bg-blueLight w-full flex" id="form">
-      <div className="ml-40">
+      <div className="ml-60">
         <Scene2 />
       </div>
       <form
