@@ -1,11 +1,12 @@
 const Transaction = () => {
   return (
     <svg
-      width="560"
-      height="700"
+      // width="560"
+      // height="700"
       viewBox="0 0 1440 1024"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="hidden lg:w-[560px] lg:h-[700px] lg:flex"
     >
       <rect width="1440" height="1024" fill="#212C5E" />
       <g clip-path="url(#clip0)">
