@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
 import Scene1 from "../../icons/Scene1";
+import Scene2 from "../../icons/Scene2";
 import { useTranslation } from "react-i18next";
 import { fetchUser, postUser } from "../../redux/states/user/userSlice";
 
@@ -36,8 +37,8 @@ const Form = () => {
 
   return (
     <div className="bg-blueLight w-full flex" id="form">
-      <div className="ml-60">
-        <Scene1 />
+      <div className="ml-40">
+        <Scene2 />
       </div>
       <form
         onSubmit={handleSubmit(onSubmit)}

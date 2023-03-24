@@ -1,14 +1,14 @@
 const Form = () => {
   return (
     <svg
-      width="1440"
-      height="1024"
+      width="800"
+      height="800"
       viewBox="0 0 1440 1024"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect width="1440" height="1024" fill="white" />
-      <g clip-path="url(#clip0)">
+      <rect width="1440" height="1024" />
+      {/* <g clip-path="url(#clip0)"> */}
         <path
           d="M727.196 835.554C923.203 835.554 1082.1 830.879 1082.1 825.113C1082.1 819.346 923.203 814.671 727.196 814.671C531.189 814.671 372.294 819.346 372.294 825.113C372.294 830.879 531.189 835.554 727.196 835.554Z"
           fill="#F5F8FF"
@@ -660,7 +660,7 @@ const Form = () => {
           d="M875.115 403.765L887.085 421.55L880.702 391.165L875.115 403.765Z"
           fill="#FF967C"
         />
-      </g>
+      {/* </g> */}
       <defs>
         <linearGradient
           id="paint0_linear"

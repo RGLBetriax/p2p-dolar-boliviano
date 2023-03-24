@@ -2,13 +2,14 @@ import logo from "../../assets/imgs/Logo3.png";
 import es from "../../assets/imgs/bolivia.png";
 import eng from "../../assets/imgs/united-states.png";
 import { useTranslation } from "react-i18next";
+import Menu from "../../icons/Menu";
 
 const NavBar = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <nav className="py-5 ">
-      <div className="flex justify-between items-center">
+    <nav className="py-5">
+      <div className="hidden md:flex justify-between items-center">
         <img src={logo} alt="" className="w-32 pt-5 ml-10" />
 
         <div className="flex">
@@ -25,6 +26,9 @@ const NavBar = () => {
             {t("form.submit")}
           </a>
         </div>
+      </div>
+      <div className="lg:hidden">
+        <button><Menu/></button>
       </div>
     </nav>
   );
