@@ -40,7 +40,7 @@ const Form = () => {
       className="bg-blueLight w-full h-[1210px] lg:h-screen  lg:flex"
       id="form"
     >
-      <div className="flex flex-col w-96 ml-12 text-center lg:text-left md:ml-72 lg:ml-96 pt-20 lg:mt-28">
+      <div className="flex flex-col w-96 ml-12 text-center lg:text-left md:ml-72 lg:ml-96 pt-20 lg:mt-5">
         <h2 className="text-lavender font-bold text-6xl">
           {t("form.svg_title")}
         </h2>
