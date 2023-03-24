@@ -40,10 +40,8 @@ const NavBar = () => {
         <div className={`flex flex-col bg-blue ${!open ? "inline transition ease-in-out delay-150" : "hidden transition ease-in-out delay-150"}`}>
           <button onClick={() => i18n.changeLanguage("en")} className="text-blueLight pb-3 ">Inglés</button>
           <button onClick={() => i18n.changeLanguage("es")} className="text-blueLight pb-3 ">Español</button>
-          <a
-            href="#form"
-            className="bg-yellow rounded-xl text-black font-bold py-3 text-sm text-center w-40 ml-44"
-          >
+          <a href="#form"
+            className="bg-yellow rounded-xl text-black font-bold py-3 text-sm text-center w-40 ml-44">
             {t("form.submit")}
           </a>
         </div>
