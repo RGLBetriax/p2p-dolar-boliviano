@@ -1,15 +1,19 @@
 {
     "header": {
-        "title":"Libera el poder de tu dinero",
-        "presentation":"Estamos emocionados de anunciar el lanzamiento de nuestro nuevo producto! Para celebrar, hemos creado una cuenta regresiva para dejarte saber exactamente cuento tiempo falta para la gran presentación"
+        "title":"Libera el poder de tus dólares",
+        "presentation": "Llegamos a Bolivia para hacer que ganes más al momento de cambiar dólares. Pronto conocerás cómo puedes proponer el precio del dólar con otras personas."
+        
     },
     "form": {
-        "suscription": "Suscríbete aquí",
+        "svg_title": "Regístrate, entrénate y gana.",
+        "svg_subtitle": "Las primeras 200 recibirán un descuento del 50% de la comisión del servicio.",
+        "suscription": "Regístrate aquí",
         "info": "Para ser de los primeros clientes en recibir información exclusiva sobre nuestro producto",
         "name": "Nombre",
         "lastname": "Apellido",
         "email": "Correo electrónico",
-        "submit": "Suscribirme",
+        "submit": "Quiero saber más",
+        "access": "Registrarme",
         "terms": "Acepto los términos y condiciones"
     },
     "validators": {

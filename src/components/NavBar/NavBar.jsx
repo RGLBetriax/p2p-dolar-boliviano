@@ -20,7 +20,7 @@ const NavBar = () => {
           </button>
           <a
             href="#form"
-            className="bg-yellow rounded-xl text-black font-bold px-3 py-2 text-sm mr-10 ml-32"
+            className="bg-yellow rounded-xl text-black font-bold px-4 py-3 text-sm mr-10 ml-12"
           >
             {t("form.submit")}
           </a>
