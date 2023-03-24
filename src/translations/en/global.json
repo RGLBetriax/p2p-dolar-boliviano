@@ -6,13 +6,15 @@
     "form": {
         "svg_title": "Sign up, train and win.",
         "svg_subtitle": "The first 200 will receive a discount of 50% of the service commission.",
+        "p_1": "We already have",
+        "p_2": "suscriptors!",
         "suscription": "Register here",
         "info": "To be among the first customers to receive exclusive information about our product",
         "name": "Name",
         "lastname": "Lastname",
         "email": "Email",
         "submit": "Know more",
-        "access": "Register",
+        "access": "Register now",
         "terms": "I agree with terms & conditions"
     },
     "validators": {

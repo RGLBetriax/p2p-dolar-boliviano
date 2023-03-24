@@ -22,8 +22,12 @@ const Home = () => {
 
       <div className="flex items-center justify-center">
         <div className="lg:w-[45%]">
-          <h1 className="text-4xl text-center pt-10 text-white font-bold lg:text-7xl lg:text-start lg:pt-0">{t("header.title")}</h1>
-          <h3 className="pl-10 pr-10 text-center pb-12 pt-10 text-white lg:pt-5 lg:pb-2 lg:pl-0 lg:text-start">{t("header.presentation")}</h3>
+          <h1 className="text-4xl text-center pt-10 text-white font-bold lg:text-7xl lg:text-start lg:pt-0">
+            {t("header.title")}
+          </h1>
+          <h3 className="pl-10 pr-10 text-center pb-12 pt-10 text-white lg:pt-5 lg:pb-2 lg:pl-0 lg:text-start">
+            {t("header.presentation")}
+          </h3>
 
           {/*<div className="pt-5">
             <FlipCountdown

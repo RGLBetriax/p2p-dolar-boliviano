@@ -31,17 +31,37 @@ const NavBar = () => {
           </a>
         </div>
       </div>
-      
+
       <div className="block md:hidden">
-        <img src={logo2} alt="" className="w-10 ml-4"/>
-       <div className="absolute left-8 top-7">
-        <button onClick={() => setOpen(!open)} className="ml-96">{open ? <Menu/> : <Cancel/> }</button>
-       </div>
-        <div className={`flex flex-col bg-blue ${!open ? "inline transition ease-in-out delay-150" : "hidden transition ease-in-out delay-150"}`}>
-          <button onClick={() => i18n.changeLanguage("en")} className="text-blueLight pb-3 ">Inglés</button>
-          <button onClick={() => i18n.changeLanguage("es")} className="text-blueLight pb-3 ">Español</button>
-          <a href="#form"
-            className="bg-yellow rounded-xl text-black font-bold py-3 text-sm text-center w-40 ml-44">
+        <img src={logo2} alt="" className="w-10 ml-4" />
+        <div className="absolute left-8 top-7">
+          <button onClick={() => setOpen(!open)} className="ml-96">
+            {open ? <Menu /> : <Cancel />}
+          </button>
+        </div>
+        <div
+          className={`flex flex-col bg-blue ${
+            !open
+              ? "inline transition ease-in-out delay-150"
+              : "hidden transition ease-in-out delay-150"
+          }`}
+        >
+          <button
+            onClick={() => i18n.changeLanguage("en")}
+            className="text-blueLight pb-3 "
+          >
+            Inglés
+          </button>
+          <button
+            onClick={() => i18n.changeLanguage("es")}
+            className="text-blueLight pb-3 "
+          >
+            Español
+          </button>
+          <a
+            href="#form"
+            className="bg-yellow rounded-xl text-black font-bold py-3 text-sm text-center w-40 ml-[33%]"
+          >
             {t("form.submit")}
           </a>
         </div>

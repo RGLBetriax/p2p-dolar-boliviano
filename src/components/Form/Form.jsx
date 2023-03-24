@@ -1,14 +1,16 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-useless-escape */
 import { useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useForm } from "react-hook-form";
 import Scene2 from "../../icons/Scene2";
 import { useTranslation } from "react-i18next";
-import { fetchUser, postUser } from "../../redux/states/user/userSlice";
+import { fetchSubs, postUser } from "../../redux/states/user/userSlice";
 
 const Form = () => {
   const dispatch = useDispatch();
+  const subs = useSelector((state) => state.user.subs);
+
   const [t] = useTranslation("global");
   const {
     register,
@@ -18,7 +20,7 @@ const Form = () => {
   } = useForm();
 
   useEffect(() => {
-    dispatch(fetchUser());
+    dispatch(fetchSubs());
   }, []);
 
   const onSubmit = async (data) => {
@@ -34,20 +36,29 @@ const Form = () => {
     /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
   return (
-    <div className="bg-blueLight w-full h-screen flex" id="form">
-      <div className="hidden lg:flex flex-col w-96 ml-96 mt-52">
+    <div
+      className="bg-blueLight w-full h-[1210px] lg:h-screen  lg:flex"
+      id="form"
+    >
+      <div className="flex flex-col w-96 ml-12 text-center lg:text-left md:ml-72 lg:ml-96 pt-20 lg:mt-5">
         <h2 className="text-lavender font-bold text-6xl">
           {t("form.svg_title")}
         </h2>
         <h3 className="text-lavender font-bold text-xl mt-6">
           {t("form.svg_subtitle")}
         </h3>
-        <p></p>
+        <p className="text-lavender font-bold text-xl mt-6">
+          {t("form.p_1")} <span className="text-blue2 text-2xl">{subs}</span>{" "}
+          {t("form.p_2")}
+        </p>
+      </div>
+      <div className="hidden lg:block absolute mt-96 ml-72">
         <Scene2 />
       </div>
+
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="bg-white rounded-2xl shadow-xl my-9 h-[650px] w-[370px] md:w-[400px] ml-4 sm:ml-72 md:mt-40"
+        className="bg-white rounded-2xl shadow-xl my-9 h-[650px] w-[370px] md:w-[400px] ml-[52px] md:ml-72 mt-12 lg:mt-40"
       >
         <h2 className="text-lavender text-3xl font-medium mb-2 pl-5 md:pl-8 pt-8">
           {t("form.suscription")}

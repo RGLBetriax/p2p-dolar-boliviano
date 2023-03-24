@@ -3,14 +3,16 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import swal from "sweetalert";
 
 export const EmptyState = {
-  user: [],
+  subs: 0,
+  users: [],
 };
 
-export const fetchUser = createAsyncThunk("user/fetchUser", async () => {
+export const fetchSubs = createAsyncThunk("subs/fetchSubs", async () => {
   try {
-    const { data } = await axios.get(
+    const res = await axios.get(
       "https://dolar-boliviano-api-ejmycaqq4q-rj.a.run.app/user?totalsubs=all"
     );
+    const data = await res.data;
     return data;
   } catch (err) {
     console.error(err);
@@ -19,12 +21,12 @@ export const fetchUser = createAsyncThunk("user/fetchUser", async () => {
 
 export const postUser = createAsyncThunk("user/postUser", async (users) => {
   try {
-    const data = await axios.post(
+    const res = await axios.post(
       "https://dolar-boliviano-api-ejmycaqq4q-rj.a.run.app/user",
       users
     );
     swal("Listo!", "Suscripción exitosa!", "success");
-    return data;
+    return res;
   } catch (err) {
     swal(
       "Error en la suscripción",
@@ -40,30 +42,35 @@ export const userSlice = createSlice({
   initialState: EmptyState,
   reducers: {
     addUser: (state, action) => {
-      state.user.push(action);
+      state.users.push(action);
+    },
+    getSubs: (state, action) => {
+      state.subs = action.payload;
     },
   },
   extraReducers(builder) {
     builder
-      .addCase(fetchUser.pending, (state, action) => {
+      .addCase(fetchSubs.pending, (state, action) => {
         state.status = "loading";
       })
-      .addCase(fetchUser.rejected, (state, action) => {
+      .addCase(fetchSubs.rejected, (state, action) => {
         state.status = "error";
       })
-      .addCase(fetchUser.fulfilled, (state, action) => {
+      .addCase(fetchSubs.fulfilled, (state, action) => {
         state.status = "succeeded";
 
         const data = action.payload;
-        state.user = data.data;
+        //state.user = res.data;
+        state.subs = data;
 
         if (data.errors === "There is not data") {
           state.user = [];
+          state.subs = 0;
         }
       });
   },
 });
 
-export const { addUser } = userSlice.actions;
+export const { addUser, getSubs } = userSlice.actions;
 
 export default userSlice.reducer;
