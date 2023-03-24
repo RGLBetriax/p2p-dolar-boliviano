@@ -3,7 +3,6 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
-import Scene1 from "../../icons/Scene1";
 import Scene2 from "../../icons/Scene2";
 import { useTranslation } from "react-i18next";
 import { fetchUser, postUser } from "../../redux/states/user/userSlice";
