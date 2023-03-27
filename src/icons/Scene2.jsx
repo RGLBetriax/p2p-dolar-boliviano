@@ -1,8 +1,8 @@
 const Form = () => {
   return (
     <svg
-      width="600"
-      height="600"
+      width="500"
+      height="500"
       viewBox="0 0 1440 1024"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -39,16 +39,16 @@ const Form = () => {
       <path
         d="M542.02 751.756C548.013 704.879 592.553 666.877 641.503 666.877C690.453 666.877 725.276 704.879 719.283 751.756"
         stroke="#FF967C"
-        stroke-width="16.5208"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="16.5208"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M542.02 751.756C548.013 704.879 592.553 666.877 641.503 666.877C665.73 666.877 686.497 676.186 700.567 691.273"
         stroke="white"
-        stroke-width="16.5208"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="16.5208"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M704.298 625.479H553.48C545.43 625.479 539.989 618.953 541.328 610.903L573.18 419.311C574.518 411.261 582.129 404.736 590.179 404.736H740.996C749.046 404.736 754.487 411.261 753.149 419.311L721.296 610.903C719.958 618.953 712.348 625.479 704.298 625.479Z"
@@ -73,48 +73,48 @@ const Form = () => {
       <path
         d="M588.231 428.306H643.905"
         stroke="white"
-        stroke-width="10"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="10"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M585.088 447.21H612.925"
         stroke="white"
-        stroke-width="10"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="10"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.6"
         d="M569.465 595.025H580.233"
         stroke="white"
-        stroke-width="6"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="6"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.6"
         d="M610.804 595.025H621.571"
         stroke="white"
-        stroke-width="6"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="6"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.6"
         d="M649.718 595.025H660.486"
         stroke="white"
-        stroke-width="6"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="6"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.6"
         d="M689.795 595.025H700.563"
         stroke="white"
-        stroke-width="6"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="6"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M902.128 625.479H751.311C743.261 625.479 737.82 618.953 739.158 610.903L771.011 419.311C772.349 411.261 779.959 404.736 788.009 404.736H938.827C946.877 404.736 952.318 411.261 950.979 419.311L919.127 610.903C917.789 618.953 910.178 625.479 902.128 625.479Z"
@@ -139,48 +139,48 @@ const Form = () => {
       <path
         d="M786.062 428.306H841.735"
         stroke="white"
-        stroke-width="10"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="10"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M782.919 447.21H810.756"
         stroke="white"
-        stroke-width="10"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="10"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.6"
         d="M767.296 595.025H778.063"
         stroke="white"
-        stroke-width="6"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="6"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.6"
         d="M808.635 595.025H819.402"
         stroke="white"
-        stroke-width="6"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="6"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.6"
         d="M847.549 595.025H858.317"
         stroke="white"
-        stroke-width="6"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="6"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.6"
         d="M887.626 595.025H898.394"
         stroke="white"
-        stroke-width="6"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="6"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M261.956 840.799L304.782 930.39L299.471 932.929C297.678 933.786 295.619 933.896 293.746 933.234C291.873 932.573 290.339 931.194 289.483 929.402L253.116 853.327C252.26 851.534 252.15 849.475 252.811 847.602C253.473 845.729 254.851 844.195 256.644 843.338L261.956 840.799L261.956 840.799Z"
@@ -253,8 +253,8 @@ const Form = () => {
       <path
         d="M573.386 557.242L583.383 538.785"
         stroke="#E56441"
-        stroke-width="0.94666"
-        stroke-linecap="round"
+        strokeWidth="0.94666"
+        strokeLinecap="round"
       />
       <path
         d="M579.936 560.231L590.832 543.041L579.936 560.231Z"
@@ -263,8 +263,8 @@ const Form = () => {
       <path
         d="M579.936 560.231L590.832 543.041"
         stroke="#E56441"
-        stroke-width="0.94666"
-        stroke-linecap="round"
+        strokeWidth="0.94666"
+        strokeLinecap="round"
       />
       <path
         d="M587.718 563.535L593.945 553.125L587.718 563.535Z"
@@ -273,8 +273,8 @@ const Form = () => {
       <path
         d="M587.718 563.535L593.945 553.125"
         stroke="#E56441"
-        stroke-width="0.94666"
-        stroke-linecap="round"
+        strokeWidth="0.94666"
+        strokeLinecap="round"
       />
       <path
         d="M570.916 573.49C570.863 567.099 567.028 559.366 567.028 559.366L570.916 573.49Z"
@@ -283,8 +283,8 @@ const Form = () => {
       <path
         d="M570.916 573.49C570.863 567.099 567.028 559.366 567.028 559.366"
         stroke="#E56441"
-        stroke-width="0.94666"
-        stroke-linecap="round"
+        strokeWidth="0.94666"
+        strokeLinecap="round"
       />
       <path
         d="M489.798 664.568L549.991 584.409C550.374 583.938 550.919 583.626 551.519 583.532C552.119 583.439 552.733 583.571 553.241 583.903L569.003 594.327C569.752 594.834 570.285 595.602 570.5 596.481C570.715 597.36 570.595 598.287 570.164 599.083L521.758 688.352L489.798 664.568Z"
@@ -337,8 +337,8 @@ const Form = () => {
       <path
         d="M418.411 530.437C418.411 530.437 416.864 535.119 420.116 534.663C423.207 534.121 425.305 535.648 422.604 538.785"
         stroke="#E56441"
-        stroke-width="0.94666"
-        stroke-linecap="round"
+        strokeWidth="0.94666"
+        strokeLinecap="round"
       />
       <path
         d="M422.755 542.924L422.771 542.921L422.787 542.916C422.832 542.902 422.88 542.901 422.925 542.912C422.971 542.922 423.013 542.945 423.047 542.978C423.081 543.011 423.106 543.052 423.119 543.097C423.131 543.143 423.132 543.191 423.12 543.236L423.11 543.275L423.106 543.315C422.907 545.364 422.397 546.582 421.778 547.266C421.18 547.928 420.43 548.148 419.579 548.083C418.706 548.016 417.747 547.648 416.818 547.143C415.9 546.644 415.047 546.031 414.388 545.505C414.343 545.463 414.31 545.411 414.292 545.352C414.272 545.291 414.27 545.225 414.286 545.162C414.301 545.1 414.334 545.042 414.379 544.997C414.425 544.951 414.482 544.919 414.545 544.904L414.545 544.904L414.55 544.903C417.064 544.266 420.856 543.372 422.755 542.924Z"
@@ -384,38 +384,38 @@ const Form = () => {
       <path
         d="M570.787 318.068C570.787 318.068 588.253 314.389 593.793 322.883C599.333 331.377 604.873 347.334 617.43 345.265C629.987 343.196 639.589 301.462 652.146 301.832C664.703 302.201 659.163 329.531 672.828 329.9C686.493 330.269 683.169 314.758 694.249 314.758C705.329 314.758 701.635 347.997 716.039 348.366C730.443 348.736 728.965 305.525 750.755 306.263"
         stroke="white"
-        stroke-width="5"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="5"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M519.801 312.326C528.696 290.477 520.132 266.343 500.673 258.421C481.214 250.499 458.229 261.789 449.334 283.638C440.439 305.487 449.003 329.621 468.462 337.543C487.921 345.465 510.907 334.175 519.801 312.326Z"
         stroke="#FF967C"
-        stroke-width="16.5208"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="16.5208"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M502.686 333.468C492.419 340.24 479.838 342.174 468.462 337.543C449.003 329.621 440.439 305.487 449.334 283.638C458.229 261.789 481.214 250.499 500.673 258.421"
         stroke="white"
-        stroke-width="16.5208"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="16.5208"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M583.915 255.889H660.771"
         stroke="white"
-        stroke-width="10"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="10"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.6"
         d="M580.273 277.089H611.542"
         stroke="white"
-        stroke-width="10"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="10"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M1165.78 782.813C1165.56 782.837 1165.46 782.96 1165.58 783.059C1165.48 783.181 1165.48 783.181 1165.51 783.403C1165.04 784.927 1164.71 786.49 1164.52 788.073L1183.48 803.312L1185.58 800.953C1185.58 800.953 1178.58 792.296 1175.96 789.778C1174.83 788.668 1173.82 787.656 1172.81 786.645C1171.93 785.732 1171.14 784.696 1170.38 783.882C1169.32 782.427 1166.25 782.986 1166.22 782.764C1166.1 782.666 1165.78 782.813 1165.78 782.813Z"
@@ -492,8 +492,8 @@ const Form = () => {
       <path
         d="M803.224 303.83L809.905 318.987"
         stroke="#E56441"
-        stroke-width="0.94666"
-        stroke-linecap="round"
+        strokeWidth="0.94666"
+        strokeLinecap="round"
       />
       <path
         d="M794.511 306.525L803.768 322.665L794.511 306.525Z"
@@ -502,8 +502,8 @@ const Form = () => {
       <path
         d="M794.511 306.525L803.768 322.665"
         stroke="#E56441"
-        stroke-width="0.94666"
-        stroke-linecap="round"
+        strokeWidth="0.94666"
+        strokeLinecap="round"
       />
       <path
         d="M789.045 317.137L796.342 326.772L789.045 317.137Z"
@@ -512,8 +512,8 @@ const Form = () => {
       <path
         d="M789.045 317.137L796.342 326.772"
         stroke="#E56441"
-        stroke-width="0.94666"
-        stroke-linecap="round"
+        strokeWidth="0.94666"
+        strokeLinecap="round"
       />
       <path
         d="M816.347 320.523C816.347 320.523 813.52 328.621 814.009 335.002L816.347 320.523Z"
@@ -522,8 +522,8 @@ const Form = () => {
       <path
         d="M816.347 320.523C816.347 320.523 813.52 328.621 814.009 335.002"
         stroke="#E56441"
-        stroke-width="0.94666"
-        stroke-linecap="round"
+        strokeWidth="0.94666"
+        strokeLinecap="round"
       />
       <path
         d="M922.041 331.389C914.361 334.051 903.656 339.45 900.758 345.474L875.161 403.786L832.532 339.012L816.389 356.015L856.2 438.356C863.475 456.463 881.955 463.266 895.341 443.751L916.729 410.158L922.041 331.389Z"
@@ -540,16 +540,16 @@ const Form = () => {
       <path
         d="M898.134 390.594L927.291 378.98"
         stroke="white"
-        stroke-width="4"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M902.537 401.033L915.827 395.739"
         stroke="white"
-        stroke-width="4"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M937.555 302.853L938.668 334.022C938.668 334.022 937.144 340.847 944.149 340.09C951.153 339.333 960.584 333.817 965.885 327.759C971.186 321.701 970.824 321.215 968.552 317.239C966.28 313.264 955.614 282.963 955.614 282.963L937.555 302.853Z"
@@ -595,8 +595,8 @@ const Form = () => {
       <path
         d="M916.43 275.013L915.211 284.114L918.426 285.666"
         stroke="#E56441"
-        stroke-width="0.94666"
-        stroke-linecap="round"
+        strokeWidth="0.94666"
+        strokeLinecap="round"
       />
       <path
         d="M924.987 434.588L897.109 442.587L893.701 459.766L900.043 478.779C900.043 478.779 904.503 475.779 903.573 468.781C902.643 461.782 926.201 461.982 930.518 453.184"
@@ -613,31 +613,31 @@ const Form = () => {
       <path
         d="M626.198 748.332H649.718"
         stroke="white"
-        stroke-width="5"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="5"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.5"
         d="M630.986 758.539H642.747"
         stroke="white"
-        stroke-width="5"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="5"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         d="M610.531 727.953L628.578 715.368L641.291 723.834L658.211 711.58"
         stroke="white"
-        stroke-width="6.50414"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="6.50414"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M645.203 706.239H663.202V724.049"
         stroke="white"
-        stroke-width="6.50414"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="6.50414"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M858.313 153.238H788.558C787.705 153.271 786.857 153.104 786.08 152.75C785.303 152.397 784.62 151.866 784.085 151.202C783.549 150.537 783.177 149.757 782.997 148.922C782.817 148.088 782.834 147.224 783.048 146.397L793.769 91.2772C794.182 89.3936 795.208 87.7002 796.686 86.4623C798.165 85.2245 800.012 84.5121 801.939 84.4368H871.694C872.547 84.4039 873.395 84.5709 874.172 84.9244C874.949 85.2779 875.632 85.8081 876.167 86.4727C876.703 87.1373 877.075 87.9179 877.255 88.7521C877.435 89.5863 877.418 90.451 877.204 91.2772L866.483 146.397C866.07 148.281 865.044 149.974 863.566 151.212C862.087 152.45 860.24 153.162 858.313 153.238Z"
@@ -669,8 +669,8 @@ const Form = () => {
           y2="552.972"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -680,8 +680,8 @@ const Form = () => {
           y2="870.254"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear"
@@ -691,8 +691,8 @@ const Form = () => {
           y2="870.254"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear"
@@ -702,8 +702,8 @@ const Form = () => {
           y2="898.307"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <clipPath id="clip0">
           <rect

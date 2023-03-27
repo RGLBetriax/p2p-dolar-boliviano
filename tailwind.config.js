@@ -14,15 +14,15 @@ module.exports = {
     colors: {
       black: "#000",
       white: "#fff",
-      lavender: "#212C5E",
       blueLight: "#F2FAFC",
+      lavender: "#212C5E",
+      blue: "#131E50",
       blue2: "#1C85E8",
       yellow: "#FFE5B4",
       orange: "#FEBB94",
       grey: "#D5D3D5",
       grey2: "#9CACCB",
       red: "#FD2816",
-      blue: "#131E50"
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif !important"],

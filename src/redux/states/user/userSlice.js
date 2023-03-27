@@ -64,7 +64,7 @@ export const userSlice = createSlice({
         state.subs = data;
 
         if (data.errors === "There is not data") {
-          state.user = [];
+          state.users = [];
           state.subs = 0;
         }
       });
