@@ -34,7 +34,7 @@ const NavBar = () => {
 
       <div className="block md:hidden">
         <img src={logo2} alt="" className="w-10 ml-4" />
-        <div className="absolute left-8 top-7">
+        <div className="absolute top-7">
           <button onClick={() => setOpen(!open)} className="ml-96">
             {open ? <Menu /> : <Cancel />}
           </button>

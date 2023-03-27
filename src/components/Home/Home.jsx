@@ -22,7 +22,7 @@ const Home = () => {
 
       <div className="flex items-center justify-center">
         <div className="lg:w-[45%]">
-          <h1 className="text-5xl text-center pt-10 text-white font-bold lg:text-7xl lg:text-start lg:pt-0">
+          <h1 className="text-5xl text-center pt-2 text-white font-bold lg:text-7xl lg:text-start lg:pt-0">
             {t("header.title")}
           </h1>
           <h3 className="pl-10 pr-10 text-center pb-12 pt-10 text-lg text-white lg:pt-5 lg:pb-2 lg:pl-0 lg:text-start">

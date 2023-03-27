@@ -1,8 +1,8 @@
 const Form = () => {
   return (
     <svg
-      width="600"
-      height="600"
+      width="500"
+      height="500"
       viewBox="0 0 1440 1024"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
