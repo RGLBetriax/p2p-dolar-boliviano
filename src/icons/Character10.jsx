@@ -24,26 +24,26 @@ const Character10 = () => {
       <path
         d="M425.656 466.754L423.419 444.551"
         stroke="#E56441"
-        stroke-width="1.0064"
-        stroke-linecap="round"
+        strokeWidth="1.0064"
+        strokeLinecap="round"
       />
       <path
         d="M418.006 467L414.367 445.672"
         stroke="#E56441"
-        stroke-width="1.0064"
-        stroke-linecap="round"
+        strokeWidth="1.0064"
+        strokeLinecap="round"
       />
       <path
         d="M409.018 467.049L407.179 454.285"
         stroke="#E56441"
-        stroke-width="1.0064"
-        stroke-linecap="round"
+        strokeWidth="1.0064"
+        strokeLinecap="round"
       />
       <path
         d="M421.416 483.703C424.088 477.457 431.021 471.444 431.021 471.444"
         stroke="#E56441"
-        stroke-width="1.0064"
-        stroke-linecap="round"
+        strokeWidth="1.0064"
+        strokeLinecap="round"
       />
       <path
         fill-rule="evenodd"
@@ -87,8 +87,8 @@ const Character10 = () => {
       <path
         d="M517.727 468.326C517.727 468.326 520.962 472.48 517.528 473.188C514.225 473.751 512.664 476.039 516.505 478.225"
         stroke="#E56441"
-        stroke-width="1.01075"
-        stroke-linecap="round"
+        strokeWidth="1.01075"
+        strokeLinecap="round"
       />
       <path
         d="M517.802 482.412L517.819 482.411L517.835 482.409C519.906 482.178 524.04 481.716 526.796 481.455L526.796 481.455L526.801 481.454C526.876 481.447 526.951 481.459 527.019 481.491C527.087 481.523 527.145 481.573 527.186 481.636C527.228 481.699 527.252 481.772 527.255 481.846C527.257 481.918 527.241 481.989 527.208 482.053C526.733 482.82 526.094 483.745 525.348 484.578C524.594 485.421 523.757 486.139 522.897 486.521C522.057 486.896 521.212 486.945 520.363 486.489C519.486 486.017 518.532 484.968 517.595 482.976L517.578 482.939L517.556 482.906C517.524 482.86 517.505 482.806 517.501 482.749C517.497 482.693 517.509 482.637 517.534 482.587C517.559 482.536 517.597 482.493 517.644 482.463C517.691 482.432 517.746 482.414 517.802 482.412Z"
@@ -118,23 +118,23 @@ const Character10 = () => {
       <path
         d="M497.332 580.374C492.83 578.857 483.649 573.511 483.649 573.511"
         stroke="#E56441"
-        stroke-width="1.17473"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.17473"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M497.924 586.377C494.301 585.059 484.733 579.875 484.733 579.875"
         stroke="#E56441"
-        stroke-width="1.17473"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.17473"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M495.741 591.728C493.352 590.914 486.249 587.535 486.249 587.535"
         stroke="#E56441"
-        stroke-width="1.17473"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.17473"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         fill-rule="evenodd"
@@ -145,17 +145,17 @@ const Character10 = () => {
       <path
         d="M686.442 473.276H644.364"
         stroke="white"
-        stroke-width="9.56968"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="9.56968"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         opacity="0.4"
         d="M690.087 493.955H603.129"
         stroke="white"
-        stroke-width="9.56968"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeWidth="9.56968"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <defs>
         <linearGradient
@@ -166,8 +166,8 @@ const Character10 = () => {
           y2="777.294"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -177,8 +177,8 @@ const Character10 = () => {
           y2="860.365"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear"
@@ -188,8 +188,8 @@ const Character10 = () => {
           y2="748.912"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear"
@@ -199,8 +199,8 @@ const Character10 = () => {
           y2="835.582"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#94B9FF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#94B9FF" />
         </linearGradient>
       </defs>
     </svg>
