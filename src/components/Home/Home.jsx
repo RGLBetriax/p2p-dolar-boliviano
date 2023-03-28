@@ -40,10 +40,7 @@ const Home = () => {
             />
           </div>*/}
         </div>
-        <motion.div
-          animate={{ x: 100 }}
-          transition={{ type: "spring", stiffness: 100 }}
-        >
+        <motion.div>
           <Transaction />
         </motion.div>
       </div>
