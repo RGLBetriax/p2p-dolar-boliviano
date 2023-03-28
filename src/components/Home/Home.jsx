@@ -40,9 +40,9 @@ const Home = () => {
             />
           </div>*/}
         </div>
-        <motion.div>
+        <div>
           <Transaction />
-        </motion.div>
+        </div>
       </div>
 
       {/* Form */}
