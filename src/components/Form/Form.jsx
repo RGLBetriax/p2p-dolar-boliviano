@@ -71,15 +71,16 @@ const Form = () => {
       className="bg-blueLight w-full h-[1210px] lg:h-5/6 lg:flex justify-center"
       id="form"
     >
-      <div className="flex flex-col w-96 ml-10 text-center lg:text-left pt-20 lg:mt-5">
-        <h2 className="text-lavender font-bold text-5xl sm:text-6xl">
+      <div className="flex flex-col lg:w-96 text-center lg:text-left pt-10 lg:mt-20 lg:pt-5">
+        <h2 className="text-lavender font-bold text-3xl sm:text-6xl">
           {t("form.svg_title")}
         </h2>
-        <h3 className="text-lavender font-bold text-xl mt-6">
+        <h3 className="text-lavender font-bold text-md lg:text-xl pt-6">
           {t("form.svg_subtitle")}
         </h3>
-        <p className="text-lavender font-bold text-xl mt-6">
-          {t("form.p_1")} <span className="text-blue2 text-2xl">{subs}</span>{" "}
+        <p className="text-lavender font-bold text-md lg:text-xl pt-6">
+          {t("form.p_1")}{" "}
+          <span className="text-blue2 text-xl lg:text-2xl">{subs}</span>{" "}
           {t("form.p_2")}
         </p>
         <div className="hidden lg:flex">
@@ -89,17 +90,17 @@ const Form = () => {
 
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="bg-white rounded-2xl shadow-xl my-9 h-[650px] w-[370px] md:w-[400px] ml-[52px] md:ml-72 mt-12 lg:mt-40"
+        className="bg-white rounded-2xl shadow-xl py-9 h-[700px] w-11/12 md:w-[400px] ml-[4%] md:ml-[25%] lg:ml-[10%] mt-24 lg:mt-28"
       >
         <h2 className="text-lavender text-3xl font-medium mb-2 pl-5 md:pl-8 pt-8">
           {t("form.suscription")}
         </h2>
-        <h3 className="text-lavender text-sm mb-2 pl-5 md:pl-8 w-96">
+        <h3 className="text-lavender text-sm mb-2 pl-5 md:pl-8 ">
           {t("form.info")}
         </h3>
         <div>
           <input
-            className="border border-gray-400 rounded mb-4 ml-5 md:ml-8 mt-6 p-3 w-[330px] "
+            className="border border-grey rounded mb-4 ml-5 md:ml-8 mt-6 p-3 w-10/12 lg:w-[330px] "
             type="text"
             placeholder={t("form.name")}
             {...register("name", { required: true })}
@@ -110,7 +111,7 @@ const Form = () => {
             </p>
           )}
           <input
-            className="border border-gray-400 rounded mb-4 ml-5 md:ml-8 mt-6 p-3 w-[330px]"
+            className="border border-grey rounded mb-4 ml-5 md:ml-8 mt-6 p-3 w-10/12 lg:w-[330px]"
             type="text"
             placeholder={t("form.lastname")}
             {...register("lastName", { required: true })}
@@ -123,7 +124,7 @@ const Form = () => {
         </div>
         <div>
           <input
-            className="border border-gray-400 rounded mb-4 ml-5 md:ml-8 mt-6 p-3 w-[330px]"
+            className="border border-grey rounded mb-4 ml-5 md:ml-8 mt-6 p-3 w-10/12 lg:w-[330px]"
             type="text"
             placeholder={t("form.email")}
             {...register("email", {
@@ -152,7 +153,6 @@ const Form = () => {
               required: true,
             })}
           />
-          {/*<Button onClick={handleClickOpen("paper")}>scroll=paper</Button>*/}
 
           <span
             onClick={handleClickOpen("paper")}
@@ -191,7 +191,7 @@ const Form = () => {
         )}
 
         <input
-          className="ml-[120px] md:ml-32 mb-6 mt-5 py-4 px-4 hover:bg-orange bg-yellow rounded-lg text-lavender cursor-pointer"
+          className="ml-[30%] sm:ml-[33.3%] md:ml-32 mb-6 mt-5 py-4 px-4 hover:bg-orange bg-yellow rounded-lg text-lavender cursor-pointer"
           type="submit"
           value={t("form.access")}
         />

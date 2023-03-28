@@ -35,7 +35,7 @@ const NavBar = () => {
       <div className="block md:hidden">
         <img src={logo2} alt="" className="w-10 ml-4" />
         <div className="absolute top-7">
-          <button onClick={() => setOpen(!open)} className="ml-96">
+          <button onClick={() => setOpen(!open)} className="ml-80 sm:ml-96">
             {open ? <Menu /> : <Cancel />}
           </button>
         </div>
@@ -50,7 +50,7 @@ const NavBar = () => {
             onClick={() => i18n.changeLanguage("en")}
             className="text-blueLight pb-3 "
           >
-            Inglés
+            English
           </button>
           <button
             onClick={() => i18n.changeLanguage("es")}
@@ -60,7 +60,7 @@ const NavBar = () => {
           </button>
           <a
             href="#form"
-            className="bg-yellow rounded-xl text-black font-bold py-3 text-sm text-center w-40 ml-[33%]"
+            className="bg-yellow rounded-xl text-lavender font-bold py-3 text-sm text-center w-40 ml-[28%] sm:ml-[33%]"
           >
             {t("form.submit")}
           </a>
