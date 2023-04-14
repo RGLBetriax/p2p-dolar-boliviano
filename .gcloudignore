@@ -1,0 +1,15 @@
+.gcloudignore
+.git
+.gitignore
+.env
+
+node_modules
+node_modules/
+/node_modules/
+
+src
+src/
+
+public
+public/
+
